@@ -39,7 +39,7 @@ function showMore(){
             }
         })
         document.getElementById("idShow").innerHTML = "";
-        document.getElementById("idShow").innerHTML += "<a class='btn btn-warning' style='color:white;' onclick='showMore()'>Show Less</a>";
+        document.getElementById("idShow").innerHTML += "<a class='btn btn-danger' style='color:white;' onclick='showMore()'>Show Less</a>";
     }
     //Show Less
     else if(showStatus == 1){
@@ -56,6 +56,6 @@ function showMore(){
             }
         })
         document.getElementById("idShow").innerHTML = "";
-        document.getElementById("idShow").innerHTML += "<a class='btn btn-success' style='color: white'; onclick='showMore()'>Show More</a>";
+        document.getElementById("idShow").innerHTML += "<a class='btn btn-danger' style='color: white'; onclick='showMore()'>Show More</a>";
     }
 }
