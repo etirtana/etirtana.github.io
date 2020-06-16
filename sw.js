@@ -6,7 +6,8 @@ self.addEventListener('install', function(event) {
       console.log('[Service Worker] Precaching App Shell');
       return cache.addAll([
         '/index.html',
-        '/offline.html'
+        '/offline.html',
+        '/script/index.js'
       ])
     })
   )
